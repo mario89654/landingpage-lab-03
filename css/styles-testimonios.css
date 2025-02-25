@@ -5,7 +5,6 @@
 }
 
 body {
-   
     font-family: Arial, sans-serif;
 }
 
@@ -21,11 +20,40 @@ header {
     background: #222;
     color: white;
     padding: 1rem;
-    text-align: center;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+header ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 img {
@@ -49,67 +77,75 @@ main {
 #testimonio1 {
     grid-area: testimonio1;
 }
+
 #testimonio2 {
     grid-area: testimonio2;
 }
+
 #testimonio3 {
     grid-area: testimonio3;
 }
+
 #testimonio4 {
     grid-area: testimonio4;
 }
+
 #testimonio5 {
     grid-area: testimonio5;
 }
+
 #testimonio6 {
     grid-area: testimonio6;
 }
+
 #testimonio7 {
     grid-area: testimonio7;
 }
+
 #testimonio8 {
     grid-area: testimonio8;
 }
+
 #testimonio9 {
     grid-area: testimonio9;
 }
+
 #testimonio10 {
     grid-area: testimonio10;
 }
+
 #testimonio11 {
     grid-area: testimonio11;
 }
 
-
 .sidebar {
-    
     padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
-    height: 100%; 
+    height: 100%;
     overflow: hidden;
 }
+
 .sidebar h2 {
-    color: black; 
- margin-top: 2rem; 
-    margin-bottom: 1rem; 
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .sidebar label {
     display: block;
     transition: transform 0.3s ease;
 }
+
 .sidebar label:hover {
     transform: translateY(-5px);
     color: #ffcc00;
 }
 
-
 .testimonios-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
-    
 }
 
 .testimonio {
@@ -119,7 +155,6 @@ main {
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     overflow: hidden;
-    
 }
 
 .testimonio img {
@@ -134,11 +169,9 @@ main {
     transform: translateY(-10px);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
-    
-
 
 .resaltado {
-    background-color: rgb(160, 161, 160) !important;
+    background-color: rgb(164, 168, 164) !important;
 }
 
 footer {

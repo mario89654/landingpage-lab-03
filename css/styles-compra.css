@@ -57,18 +57,16 @@ img {
     object-fit: cover;
 }
 
-    
-
-
-
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 1rem;
     padding: 1rem;
     min-height: 100vh;
-    margin-top: 60px; /* Adjust this value if needed */
+    margin-top: 60px;
+    /* Adjust this value if needed */
 }
+
 .container .image-container {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -77,13 +75,16 @@ img {
 
 
 .container .image-container:hover {
-    transform: scale(1.02); /* Efecto de escala al hacer hover */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+    transform: scale(1.02);
+    /* Efecto de escala al hacer hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* Sombra al hacer hover */
 }
 
 
 .sidebar {
-    background: #f8f9fa; /* Color de fondo */
+    background: #f8f9fa;
+    /* Color de fondo */
     padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -100,8 +101,10 @@ img {
 }
 
 .sidebar ul li:hover {
-    background-color: #e2e6ea; /* Color de fondo al hacer hover */
-    transform: translateY(-2px); /* Efecto de movimiento al hacer hover */
+    background-color: #e2e6ea;
+    /* Color de fondo al hacer hover */
+    transform: translateY(-2px);
+    /* Efecto de movimiento al hacer hover */
 }
 
 
@@ -109,7 +112,8 @@ img {
 
 main {
     padding: 1rem;
-    margin-top: 1rem; /* Adjust this value if needed */
+    margin-top: 1rem;
+    /* Adjust this value if needed */
     display: grid;
     gap: 1rem;
     grid-template-areas:
@@ -119,9 +123,11 @@ main {
 #section1 {
     grid-area: section1;
 }
+
 #section2 {
     grid-area: section2;
 }
+
 #section3 {
     grid-area: section3;
 }
